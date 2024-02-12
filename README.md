@@ -6,23 +6,22 @@
 core1#show spanning-tree
 VLAN0001
   Spanning tree enabled protocol ieee
-  Root ID    Priority    32769
-             Address     0001.6485.315D
-             Cost        19
-             Port        5(FastEthernet0/5)
+  Root ID    Priority    24577
+             Address     0060.3E91.5590
+             This bridge is the root
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
 
-  Bridge ID  Priority    32769  (priority 32768 sys-id-ext 1)
+  Bridge ID  Priority    24577  (priority 24576 sys-id-ext 1)
              Address     0060.3E91.5590
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
              Aging Time  20
 
 Interface        Role Sts Cost      Prio.Nbr Type
 ---------------- ---- --- --------- -------- --------------------------------
+Fa0/5            Desg FWD 19        128.5    P2p
 Fa0/1            Desg FWD 19        128.1    P2p
 Fa0/2            Desg FWD 19        128.2    P2p
-Fa0/5            Root FWD 19        128.5    P2p
-Po1              Altn BLK 3         128.27   Shr
+Po1              Desg FWD 3         128.27   Shr
 
 VLAN0050
   Spanning tree enabled protocol ieee
@@ -39,150 +38,143 @@ VLAN0050
 
 Interface        Role Sts Cost      Prio.Nbr Type
 ---------------- ---- --- --------- -------- --------------------------------
+Fa0/5            Root FWD 19        128.5    P2p
 Fa0/1            Desg FWD 19        128.1    P2p
 Fa0/2            Desg FWD 19        128.2    P2p
-Fa0/5            Root FWD 19        128.5    P2p
 Po1              Altn BLK 3         128.27   Shr
 
 VLAN0100
   Spanning tree enabled protocol ieee
-  Root ID    Priority    32868
-             Address     0001.6485.315D
-             Cost        19
-             Port        5(FastEthernet0/5)
+  Root ID    Priority    24676
+             Address     0060.3E91.5590
+             This bridge is the root
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
 
-  Bridge ID  Priority    32868  (priority 32768 sys-id-ext 100)
+  Bridge ID  Priority    24676  (priority 24576 sys-id-ext 100)
              Address     0060.3E91.5590
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
              Aging Time  20
 
 Interface        Role Sts Cost      Prio.Nbr Type
 ---------------- ---- --- --------- -------- --------------------------------
+Fa0/5            Desg FWD 19        128.5    P2p
 Fa0/1            Desg FWD 19        128.1    P2p
 Fa0/2            Desg FWD 19        128.2    P2p
-Fa0/5            Root FWD 19        128.5    P2p
 Po1              Desg FWD 3         128.27   Shr
 
 VLAN0200
   Spanning tree enabled protocol ieee
-  Root ID    Priority    32968
-             Address     0001.6485.315D
-             Cost        19
-             Port        5(FastEthernet0/5)
+  Root ID    Priority    24776
+             Address     0060.3E91.5590
+             This bridge is the root
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
 
-  Bridge ID  Priority    32968  (priority 32768 sys-id-ext 200)
+  Bridge ID  Priority    24776  (priority 24576 sys-id-ext 200)
              Address     0060.3E91.5590
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
              Aging Time  20
 
 Interface        Role Sts Cost      Prio.Nbr Type
 ---------------- ---- --- --------- -------- --------------------------------
+Fa0/5            Desg FWD 19        128.5    P2p
 Fa0/1            Desg FWD 19        128.1    P2p
 Fa0/2            Desg FWD 19        128.2    P2p
-Fa0/5            Root FWD 19        128.5    P2p
-Po1              Altn BLK 3         128.27   Shr
+Po1              Desg FWD 3         128.27   Shr
 
 VLAN0201
   Spanning tree enabled protocol ieee
-  Root ID    Priority    32969
-             Address     0001.6485.315D
-             Cost        19
-             Port        5(FastEthernet0/5)
+  Root ID    Priority    24777
+             Address     0060.3E91.5590
+             This bridge is the root
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
 
-  Bridge ID  Priority    32969  (priority 32768 sys-id-ext 201)
+  Bridge ID  Priority    24777  (priority 24576 sys-id-ext 201)
              Address     0060.3E91.5590
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
              Aging Time  20
 
 Interface        Role Sts Cost      Prio.Nbr Type
 ---------------- ---- --- --------- -------- --------------------------------
+Fa0/5            Desg FWD 19        128.5    P2p
 Fa0/1            Desg FWD 19        128.1    P2p
 Fa0/2            Desg FWD 19        128.2    P2p
-Fa0/5            Root FWD 19        128.5    P2p
-Po1              Altn BLK 3         128.27   Shr
+Po1              Desg FWD 3         128.27   Shr
 
 VLAN0300
   Spanning tree enabled protocol ieee
-  Root ID    Priority    33068
-             Address     0001.6485.315D
-             Cost        19
-             Port        5(FastEthernet0/5)
+  Root ID    Priority    24876
+             Address     0060.3E91.5590
+             This bridge is the root
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
 
-  Bridge ID  Priority    33068  (priority 32768 sys-id-ext 300)
+  Bridge ID  Priority    24876  (priority 24576 sys-id-ext 300)
              Address     0060.3E91.5590
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
              Aging Time  20
 
 Interface        Role Sts Cost      Prio.Nbr Type
 ---------------- ---- --- --------- -------- --------------------------------
+Fa0/5            Desg FWD 19        128.5    P2p
 Fa0/1            Desg FWD 19        128.1    P2p
 Fa0/2            Desg FWD 19        128.2    P2p
-Fa0/5            Root FWD 19        128.5    P2p
-Po1              Altn BLK 3         128.27   Shr
+Po1              Desg FWD 3         128.27   Shr
 
 VLAN0400
   Spanning tree enabled protocol ieee
-  Root ID    Priority    33168
-             Address     0001.6485.315D
-             Cost        19
-             Port        5(FastEthernet0/5)
+  Root ID    Priority    24976
+             Address     0060.3E91.5590
+             This bridge is the root
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
 
-  Bridge ID  Priority    33168  (priority 32768 sys-id-ext 400)
+  Bridge ID  Priority    24976  (priority 24576 sys-id-ext 400)
              Address     0060.3E91.5590
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
              Aging Time  20
 
 Interface        Role Sts Cost      Prio.Nbr Type
 ---------------- ---- --- --------- -------- --------------------------------
+Fa0/5            Desg FWD 19        128.5    P2p
 Fa0/1            Desg FWD 19        128.1    P2p
 Fa0/2            Desg FWD 19        128.2    P2p
-Fa0/5            Root FWD 19        128.5    P2p
-Po1              Altn BLK 3         128.27   Shr
+Po1              Desg FWD 3         128.27   Shr
 
 VLAN0401
   Spanning tree enabled protocol ieee
-  Root ID    Priority    33169
-             Address     0001.6485.315D
-             Cost        19
-             Port        5(FastEthernet0/5)
+  Root ID    Priority    24977
+             Address     0060.3E91.5590
+             This bridge is the root
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
 
-  Bridge ID  Priority    33169  (priority 32768 sys-id-ext 401)
+  Bridge ID  Priority    24977  (priority 24576 sys-id-ext 401)
              Address     0060.3E91.5590
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
              Aging Time  20
 
 Interface        Role Sts Cost      Prio.Nbr Type
 ---------------- ---- --- --------- -------- --------------------------------
+Fa0/5            Desg FWD 19        128.5    P2p
 Fa0/1            Desg FWD 19        128.1    P2p
 Fa0/2            Desg FWD 19        128.2    P2p
-Fa0/5            Root FWD 19        128.5    P2p
-Po1              Altn BLK 3         128.27   Shr
+Po1              Desg FWD 3         128.27   Shr
 
 VLAN0500
   Spanning tree enabled protocol ieee
-  Root ID    Priority    33268
-             Address     0003.E447.D2B0
-             Cost        19
-             Port        1(FastEthernet0/1)
+  Root ID    Priority    25076
+             Address     0060.3E91.5590
+             This bridge is the root
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
 
-  Bridge ID  Priority    33268  (priority 32768 sys-id-ext 500)
+  Bridge ID  Priority    25076  (priority 24576 sys-id-ext 500)
              Address     0060.3E91.5590
              Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
              Aging Time  20
 
 Interface        Role Sts Cost      Prio.Nbr Type
 ---------------- ---- --- --------- -------- --------------------------------
-Fa0/1            Root FWD 19        128.1    P2p
-Fa0/2            Desg FWD 19        128.2    P2p
 Fa0/5            Desg FWD 19        128.5    P2p
-Po1              Altn BLK 3         128.27   Shr
+Fa0/1            Desg FWD 19        128.1    P2p
+Fa0/2            Desg FWD 19        128.2    P2p
+Po1              Desg FWD 3         128.27   Shr
 ```
 ```
 core1#  show standby
@@ -385,7 +377,11 @@ S*   0.0.0.0/0 [10/0] via 172.1.0.1
 
 Телефонные аппараты зарегестрированы на VoIP сервере, прозвон с одного на другой работает.
 
-**Не справился**
+![image](https://github.com/AlexanderSchelokov/thesis-of-a-network-engineer/assets/121572590/92465b77-0e90-403a-a90c-a9a5ad5db8c7)
+
+![image](https://github.com/AlexanderSchelokov/thesis-of-a-network-engineer/assets/121572590/b099fa39-437a-4bd1-bea5-2d24838b93dc)
+
+
 
 На все сетевые устройства можно попасть по учётной записи tacacs+ сервера.
 ![image](https://github.com/AlexanderSchelokov/thesis-of-a-network-engineer/assets/121572590/210d2d47-e9a0-4ee7-a9c0-e44d12490108)
@@ -419,4 +415,6 @@ S*   0.0.0.0/0 [10/0] via 172.1.0.1
 
 
 Ноутбуки не имеют доступа к внутренним сетям компании(ping svi users, mgmt, printer).
+
+
 Устройства филиала имеют доступ только к внутренним сетям компании, не имеют выхода в интернет.
