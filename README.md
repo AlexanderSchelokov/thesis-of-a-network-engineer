@@ -416,5 +416,10 @@ S*   0.0.0.0/0 [10/0] via 172.1.0.1
 
 Ноутбуки не имеют доступа к внутренним сетям компании(ping svi users, mgmt, printer).
 
+![image](https://github.com/AlexanderSchelokov/thesis-of-a-network-engineer/assets/121572590/a9e46c2c-b305-4bff-8211-101842d0e780)
+
 
 Устройства филиала имеют доступ только к внутренним сетям компании, не имеют выхода в интернет.
+
+![image](https://github.com/AlexanderSchelokov/thesis-of-a-network-engineer/assets/121572590/dcf21afb-31a2-4f0e-9c18-219a8471d229)
+
